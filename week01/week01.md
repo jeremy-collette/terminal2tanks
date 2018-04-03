@@ -126,6 +126,8 @@ print("Hello, World!")
 
 ### Congratulations!
 * You've written your first program!
+
+![:scale 80%](images/fireworks.jpg)
 ---
 
 ### Hello, `[user]`!
