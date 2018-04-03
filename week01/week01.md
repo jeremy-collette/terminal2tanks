@@ -141,7 +141,7 @@ print("Hello, World!")
 ![:scale 90%](images/hello_user.png)
 ---
 
-## Extension: `hello_global.py`
+## Challenge: `hello_global.py`
 * Create a new file in the `week01` folder, called `hello_global.py`.
 * Print `Hello` in the following languages:
     - English
