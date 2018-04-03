@@ -139,6 +139,22 @@ print("Hello, World!")
 ![:scale 90%](images/hello_user.png)
 ---
 
+## Extension: `hello_global.py`
+* Create a new file in the `week01` folder, called `hello_global.py`.
+* Print `Hello` in the following languages:
+    - English
+    - Japanese
+    - French
+    - Spanish
+    - German
+    - Italian
+    - Portuguese
+    - Hindi
+    - Persian
+    - Russian
+* For each greeting, include the language beforehand. For example, the program should print `English: Hello` for English.
+---
+
 ## That's all, folks!
 * You've finished the first workshop.
 ---
