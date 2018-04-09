@@ -129,17 +129,12 @@ print('Today is ' + day + '!')
 ```
 ---
 
-## Challenge: Name, age, and hobby
-* Write a program that asks a user their name, age, and hobby
-* For each question, use the `input()` command to prompt the user and store the answer in a variable
-* Each time the user answers a question, you should repeat their answer
-* For example, your program should start as follows:
-
-```python
-name = input('Enter name: ')
-print('Name is ' + name + '.')
-...
-```
+## Challenge: `future_age.py`
+* Write a program that asks a user for their name and age
+* Your program should print both answers, and then print the users age in 15 years
+* Use the `input()` command to prompt the user and store the answer in a variable
+* Your program should act as follows:
+![:scale 80%](images/future_age.png)
 ---
 
 ## That's all, folks!
