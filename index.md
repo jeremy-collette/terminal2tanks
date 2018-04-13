@@ -1,6 +1,6 @@
 ## Workshops
 * [Week 1 - Hello, World!](week01/)
-* Week 2
+* [Week 2 - Types, expressions, and variables](week02/)
 * Week 3
 * Week 4
 * Week 5
