@@ -129,4 +129,3 @@ Write a program that behaves as follows:
 
 ## That's all, folks!
 * You've finished the third workshop!
----
