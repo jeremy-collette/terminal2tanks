@@ -51,6 +51,7 @@ else:
     - `if (5*5 != 100/4): print("It's True!")`
     - `if ('True' == 'True'): print("It's True!")`
     - `if ('False' != 'True'): print("It's True!")`
+    - `if ('Thomas' == 'thomas'): print("It's True!")`
     - `if (True): print("It's True!")`
     - `if (False): print("It's True!")`
 ---
