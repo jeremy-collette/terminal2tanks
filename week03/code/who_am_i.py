@@ -1,4 +1,4 @@
-name = raw_input('Enter name: ')
+name = input('Enter name: ')
 
 if (name == 'Malcolm Turnbull'):
     print('Hello, Prime Minister!')

@@ -1,5 +1,5 @@
 print('Can you drink beer?')
-age = raw_input('Enter age: ')
+age = input('Enter age: ')
 
 if (int(age) >= 18):
     print('Yes!')

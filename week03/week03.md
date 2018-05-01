@@ -25,7 +25,7 @@ print('Age in 15 years: ' + str(futureAge) + '.')
 ### `drink_beer.py`
 ```python
 print('Can you drink beer?')
-age = raw_input('Enter age: ')
+age = input('Enter age: ')
 
 if (int(age) >= 18):
     print('Yes!')
@@ -62,7 +62,7 @@ else:
 
 #### `who_am_i.py`
 ```python 
-name = raw_input('Enter name: ')
+name = input('Enter name: ')
 
 if (name == 'Malcolm Turnbull'):
     print('Hello, Prime Minister!')
@@ -92,7 +92,7 @@ while (x < 10):
 ```python
 word = 'None'
 while (word != 'secret'):
-    word = raw_input('Guess the word: ')
+    word = input('Guess the word: ')
 
 print('Congratulations!')
 ```
