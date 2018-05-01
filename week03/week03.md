@@ -117,12 +117,10 @@ for s in ['this','is','a','list']:
 ```
 ---
 
-## Challenge: `sequence_printer.py`
+## Challenge: `multiple_printer.py`
 Write a program that behaves as follows:
-* The program prompts the user to type "asc" (ascending) or "desc" (descending).
 * The program prompts the user to type a divisor.
 * The program prints the numbers between 0 and 100 that are perfectly divisible by the divisor.
-* If the user initially typed "asc", the numbers are printed in ascending order. Otherwise, the numbers are printed in descending order.
 
 ---
 ### Example input / output
@@ -131,3 +129,4 @@ Write a program that behaves as follows:
 
 ## That's all, folks!
 * You've finished the third workshop!
+---
