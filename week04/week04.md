@@ -37,7 +37,10 @@ numbers = ['Ten', 10, 10/1]
 * We can access the members of a list in a number of ways.
 * The first way is by using the _index_ operator, `[]`.
 * Note that the 0th index is the FIRST member, and length-1 is the last member.
+<<<<<<< HEAD
 * We can also access a range of members by providing a start and end index (exclusive).
+=======
+>>>>>>> week05
 * For example:
 
 ```python
@@ -46,7 +49,10 @@ print(students)
 print(students[0])
 print(students[1])
 print(students[2])
+<<<<<<< HEAD
 print(students[0:2])  # range of members
+=======
+>>>>>>> week05
 ```
 
 * We can also change members of a list the same way:
@@ -57,7 +63,10 @@ print(students)
 ```
 
 * What would `print(students[3])` do? Why?
+<<<<<<< HEAD
 *
+=======
+>>>>>>> week05
 ---
 
 ### Accessing members using a `for` loop
@@ -105,7 +114,10 @@ print(students)
 cars = ['Toyota', 'Ford', 'Holden']
 bikes = ['Yamaha', 'Kawasaki']
 vehicles = cars + bikes
+<<<<<<< HEAD
 del vehicles[0]
+=======
+>>>>>>> week05
 print(vehicles)
 ```
 ---
