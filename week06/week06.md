@@ -31,7 +31,7 @@ class: center, middle
 
 ## What is a function?
 * A function allows us to repeat code in different sections of our code without copying and pasting.
-* It takes in arguments, and can (optionally) return a value.
+* It can take in arguments, and can return a value.
 * Consider the following example:
 
 ```python
@@ -94,7 +94,7 @@ def weekday():
     print("Work work...")
 
 def weekend():
-    print("Yehaw!")
+    print("Yeehaw!")
 
 def day(name):
     if (name == 'Saturday' or name == 'Sunday'):
@@ -165,6 +165,8 @@ func1()
 ## Challenge: `game_functions.py`
 Modify our game from last week so that each section of code is inside a function. Here is some starter code:
 ```python
+...
+
 def handle_events():
     # handle pygame events here
 
@@ -187,12 +189,12 @@ while True:
    
     # handle wrapping
     pos = handle_wrapping(pos)
-
-    # drawing
 ```
 ---
 
 ```python
+
+    # drawing
     drawing()
 
 ```
