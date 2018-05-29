@@ -152,7 +152,7 @@ print('Distance between resetted points: ' + str(p.distance(p2)))
 
 ## Challenge: `game_classes.py`
 * Modify our game so that the circle is represented by a class called `Tank`.
-* Copy the code from our functions in the previous challenge to functions in the Tank class.
+* Copy the code from our functions in the previous challenge to functions in the `Tank` class.
 * Here is some starter code:
 
 ```python
