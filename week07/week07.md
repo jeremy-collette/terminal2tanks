@@ -125,7 +125,7 @@ print('Point at (' + str(p.x) + ', ' + str(p.y) + ')')
 * Methods allow us to operate on the data members of a class.
 * The first argument for class methods is always `self`, which is a reference to the class that owns the method.
 * We need to use `self` to access our classes data members.
-* Let's create the Point class again, with the `reset` and `distance` methods.
+* Let's create the `Point` class again, with the `reset` and `distance` methods.
 
 ```python
 class Point:
