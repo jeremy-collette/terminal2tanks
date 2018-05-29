@@ -1,6 +1,6 @@
 class: center, middle
 
-# Week 07 - Intro to Classes
+# Week 07 - Intro to classes
 ---
 
 ## Last Week's Challenge
