@@ -4,7 +4,7 @@
 * [Week 3 - Conditionals and loops](week03/)
 * [Week 4 - Lists and tuples](week04/)
 * [Week 5 - Pygame](week05/)
-* Week 6
+* [Week 6 - Functions](week06/)
 * Week 7
 * Week 8
 * Week 9
