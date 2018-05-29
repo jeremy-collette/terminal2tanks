@@ -82,8 +82,9 @@ while True:
 ---
 
 ## What is a class?
-* A class is a 'user-defined type'. Previously, we've been using `string`, `float`, `integer`, and even `list`. 
-* In programming, we often find the need for more complicated types, that contain more simple types.
+* Previously, we've been using `string`, `float`, `integer`, and even `list`. These are 'built-in types'.
+* A class is a 'user-defined type'. A type that we create ourselves!
+* This is because we often find the need for more complicated functionality, that built-in types cannot provide.
 * Often, a class will represent a real-world concept.
 * For example, lets create the `Point` class to hold a coordinate on a 2D plane.
 
@@ -102,7 +103,7 @@ print('Point at (' + str(p.x) + ', ' + str(p.y) + ')')
 
 ---
 ## Constructors
-* The `__init__` function is a _constructor_. 
+* The `__init__` method (similar to a function) is a _constructor_. 
 * Constructors are used to initialise our class. Here we create the data members (variables) that our class needs.
 * Constructors can also take arguments, that we can use to further customise our class.
 * Let's create the `Point` class again, with a constructor that takes arguments.
@@ -122,7 +123,7 @@ print('Point at (' + str(p.x) + ', ' + str(p.y) + ')')
 ## Class methods
 * A function that is owned by a class is called a _method_.
 * Methods allow us to operate on the data members of a class.
-* The first argument for class methods are always `self`, which is a reference to the class that owns the method.
+* The first argument for class methods is always `self`, which is a reference to the class that owns the method.
 * We need to use `self` to access our classes data members.
 * Let's create the Point class again, with the `reset` and `distance` methods.
 
@@ -188,11 +189,11 @@ class Tank:
 
     # handles keyboard input
     def handle_input(self):
-        # NOTE: copy handle_keyboard_input code here 
+        # NOTE: copy handle_keyboard_input code from previous challenge here 
 
     # handles screen wrapping
     def handle_wrapping(self):
-        # NOTE: copy handle_wrapping code here
+        # NOTE: copy handle_wrapping code from previous challenge here
 
     # updates the Tank
     def update(self):
@@ -201,7 +202,7 @@ class Tank:
 
     # draws the Tank
     def draw(self):
-        # NOTE: copy drawing code here
+        # NOTE: copy drawing code from previous challenge here
 
 
 # create Tank

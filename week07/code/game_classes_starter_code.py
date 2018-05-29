@@ -29,11 +29,11 @@ class Tank:
 
     # handles keyboard input
     def handle_input(self):
-        # NOTE: copy handle_keyboard_input code here 
+        # NOTE: copy handle_keyboard_input code form previous challenge here 
 
     # handles screen wrapping
     def handle_wrapping(self):
-        # NOTE: copy handle_wrapping code here
+        # NOTE: copy handle_wrapping code from previous challenge here
 
     # updates the Tank
     def update(self):
@@ -42,7 +42,7 @@ class Tank:
 
     # draws the Tank
     def draw(self):
-        # NOTE: copy drawing code here
+        # NOTE: copy drawing code from previous challenge here
 
 
 # create Tank
