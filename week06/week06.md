@@ -56,33 +56,27 @@ say_hello('Isaac')
 
 ---
 
-* Here's an example of what the `max` function might look like:
+## Return values
+* If a function uses the `return` statement, the value after the `return` keyword is _returned_ and the function ends.
+* When functions `return` a value, we can use it in our code.
+* For example, we can `print` it, store it in a variable, or use it in an `if` statement. 
+* Consider the `max` function, which we can use to find the bigger of two numbers. For example, `max(1,2)` would return `2`. Below we see how we can use the return value from this function.
 
 ```python
 def max(a, b):
     if (a > b): return a
-    else: return b
+    return b
 
-print(max(4,7))
+print(max(1,2))  # prints '2'
+m = max(5,10)  # stores '10' in m
+
+if (max(100, 2) == 100):  # returns '100', which we use in our if statement
+    print('Max is 100!')
+
 ```
 
-* What does this function do?
+* Note: the `max` function is already defined by Python, so we don't need to define it ourselves. However, this helps us understand how to write functions.
 
-```python
-def lcd(a, b):
-    for i in range(2, min(a,b)+1):
-        if (a % i == 0 and b % i == 0):
-            return i
-    return -1
-
-print(lcd(5, 10))
-```
-
-* Evaluate the following:
-    - `print(lcd(4, 12))`
-    - `print(lcd(14, 21))`
-    - `print(lcd(50, 100))`
-    - `print(lcd(7, 9))`
 ---
 
 ## Functions calling functions
