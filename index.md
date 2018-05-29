@@ -5,9 +5,7 @@
 * [Week 4 - Lists and tuples](week04/)
 * [Week 5 - Pygame](week05/)
 * [Week 6 - Functions](week06/)
-* Week 7
+* [Week 7 - Intro to classes](week07/)
 * Week 8
 * Week 9
 * Week 10
-* Week 11
-* Week 12
