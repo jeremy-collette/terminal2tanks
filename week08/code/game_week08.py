@@ -21,13 +21,12 @@ def handle_pygame_events():
 
 class Tank:
     def __init__(self):
-        self.color = (255, 255, 255)
         self.pos = (175, 125)
         self.speed = 2
         self.image = pygame.image.load('tank.png')
         self.rotated_image = self.image
         self.initial_orientation = 180
-
+        
     def handle_input(self):
         keys = pygame.key.get_pressed()
         x_vel = keys[K_LEFT] * -self.speed + keys[K_RIGHT] * self.speed
