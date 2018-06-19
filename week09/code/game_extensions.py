@@ -21,6 +21,7 @@ def handle_pygame_events():
 
 class Tank:
     def __init__(self):
+        self.color = (255, 255, 255)
         self.pos = (175, 125)
         self.speed = 2
         self.image = pygame.image.load('tank.png')
@@ -29,10 +30,11 @@ class Tank:
 
     def handle_input(self):
         keys = pygame.key.get_pressed()
-        x_vel = keys[K_LEFT] * -self.speed + keys[K_RIGHT] * self.speed
-        y_vel = keys[K_UP] * -self.speed + keys[K_DOWN] * self.speed
+        shift_speed = self.speed * (1 + keys[K_LSHIFT])
+        x_vel = keys[K_LEFT] * -shift_speed + keys[K_RIGHT] * shift_speed
+        y_vel = keys[K_UP] * -shift_speed + keys[K_DOWN] * shift_speed
         self.pos = (self.pos[0] + x_vel, self.pos[1] + y_vel)
-
+        
         if (x_vel != 0 or y_vel != 0):
             new_orientation = math.atan2(x_vel, -y_vel) * (180 / math.pi)
             angle_diff = self.initial_orientation - new_orientation

@@ -7,5 +7,5 @@
 * [Week 6 - Functions](week06/)
 * [Week 7 - Intro to classes](week07/)
 * [Week 8 - Game workshop](week08/)
-* Week 9
+* [Week 9 - Game workshop II](week09/)
 * Week 10
