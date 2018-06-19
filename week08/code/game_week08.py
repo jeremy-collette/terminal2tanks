@@ -23,12 +23,10 @@ class Tank:
     def __init__(self):
         self.color = (255, 255, 255)
         self.pos = (175, 125)
-        self.radius = 50
         self.speed = 2
         self.image = pygame.image.load('tank.png')
         self.rotated_image = self.image
         self.initial_orientation = 180
-
 
     def handle_input(self):
         keys = pygame.key.get_pressed()
@@ -42,15 +40,15 @@ class Tank:
             self.rotated_image = pygame.transform.rotate(self.image, angle_diff)
 
     def handle_wrapping(self):
-        min_x = -self.radius
-        max_x = SCREEN_WIDTH + self.radius
+        min_x = -self.rotated_image.get_width()
+        max_x = SCREEN_WIDTH + self.rotated_image.get_width()
         if (self.pos[0] < min_x):
             self.pos = (max_x, self.pos[1])
         if (self.pos[0] > max_x):
             self.pos = (min_x, self.pos[1])
 
-        min_y = -self.radius
-        max_y = SCREEN_HEIGHT + self.radius
+        min_y = -self.rotated_image.get_height()
+        max_y = SCREEN_HEIGHT + self.rotated_image.get_height()
         if (self.pos[1] < min_y):
             self.pos = (self.pos[0], max_y)
         if (self.pos[1] > max_y):
