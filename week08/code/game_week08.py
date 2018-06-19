@@ -21,7 +21,6 @@ def handle_pygame_events():
 
 class Tank:
     def __init__(self):
-        self.color = (255, 255, 255)
         self.pos = (175, 125)
         self.speed = 2
         self.image = pygame.image.load('tank.png')
